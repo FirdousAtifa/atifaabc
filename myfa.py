@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 st.title("Discipline and movitated")
 st.header("wallpaper")
 name=st.text_input("enter your name")
@@ -17,5 +18,5 @@ if login:
 
 st.divider()
 #st.image(r"C:\Users\aanis\OneDrive\Pictures\Screenshots\Screenshot 2026-08-27 150028.png")
-import os
-st.image(os.path.join(os.getcwd(),"static","Screenshot 2026-08-27 150043.PNG"))
+
+st.image(os.path.join(os.getcwd(),"static","Screenshot 2026-08-27 150043.png"))
